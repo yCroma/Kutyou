@@ -14,8 +14,8 @@ header {
 header a {
     font-size: 35px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: inherit;
-    text-decoration: none;
+    color: inherit !important;
+    text-decoration: none !important;
 }
 
 .contents {
