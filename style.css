@@ -52,6 +52,10 @@ header a {
     color: inherit;
 }
 
+
+div.minatan img {
+    width: 100px;
+}
 .contents a:hover {
     opacity: 0.8 ;
     transform: scale(1.2);
