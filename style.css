@@ -52,6 +52,10 @@ header a {
     color: inherit;
 }
 
+.contents a:hover {
+    opacity: 0.8 ;
+}
+
 footer {
     padding: 25px 15px;
     font-size: 20px;
