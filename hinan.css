@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: #F8F2E2 !important;
 }
 
 .list {
@@ -31,5 +32,4 @@ footer {
   margin-top: 20px;
   font-size: 20px;
   text-align: center;
-  background-color: #fff;
 }
