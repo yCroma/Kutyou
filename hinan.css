@@ -14,7 +14,6 @@ body {
 .map {
   display: block; 
   margin-top: 30px;
-  margin-bottom: -140px;
   position:relative;
   width:100%;
   height:0;
@@ -23,11 +22,17 @@ body {
 
 .map iframe {
   position: absolute;
-  position:absolute;
     top:0;
     left:0;
     width:100%;
     height:80%;
+    z-index: 0;
+}
+
+.back {
+    left: 50%;
+    margin-top: -100px;
+    position: absolute;
 }
 
 footer {
