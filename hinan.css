@@ -10,9 +10,13 @@ body {
   padding-top: 3%;
 }
 
+th {/*表の上の色*/
+  background-color:#fae9bb !important;
+}
+
 .map {
   margin-top: 30px;
-  margin-bottom: -50px;
+  margin-bottom: -40px;
   position:relative;
   width:100%;
   height:0;
