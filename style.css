@@ -52,6 +52,11 @@ header a {
     color: inherit;
 }
 
+div.minatan img {
+    width: 100px;
+    
+}
+
 footer {
     padding: 25px 15px;
     font-size: 20px;
