@@ -1,0 +1,37 @@
+.submission ul {
+    border: solid 2px #000000;
+    border-radius: 10px;
+}
+
+.submission li {
+    margin: 10px;
+}
+
+.submission_underbar {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+    padding: 15px 20px 10px;
+    border-bottom: solid 2px #000000;
+    border-radius: 0;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    box-sizing: content;
+}
+
+.submission_name a{
+    color: inherit;
+    border: none;
+    border-radius: 0;
+}
+
+.submission_status {
+    margin-right: 10px;
+}
+
+.submission_status p {
+    margin: 0;
+}
