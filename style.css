@@ -34,6 +34,10 @@ nav a {
     color: #a9a9a9;
 }
 
+nav a:hover {
+    color: #0645AD;
+}
+
 .contents {
     padding: 40px 15px;
     text-align: center;
