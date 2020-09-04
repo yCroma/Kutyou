@@ -18,15 +18,25 @@ header a {
     text-decoration: none !important;
 }
 
-nav li {
-    list-style: none;
-    display: inline-block;
-    margin: 10px;
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 40px;
+    width: 350px;
+    padding: 10px 10px;
 }
 
-nav {
-    height: 40px;
-    margin-top: 20px;
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav li {
+    margin-left: 5px;
+    list-style: none;
+    display: inline-block;
 }
 
 nav a {
