@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body {
     margin: 0;
     font-family: sans-serif;
@@ -17,6 +16,22 @@ header a {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: inherit !important;
     text-decoration: none !important;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+nav {
+    height: 40px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a9a9a9;
 }
 
 .contents {
@@ -37,12 +52,14 @@ header a {
 .contents li {
     display: block;
     margin-bottom: 10px;
-    padding: 30px; /*ボタンの縦幅*/
+    padding: 30px;
+    /*ボタンの縦幅*/
 }
 
 .contents a {
-    width: 300px; /*ボタンの横幅*/
-    background-color:#98BFAD;
+    width: 300px;
+    /*ボタンの横幅*/
+    background-color: #98BFAD;
     display: inline-block;
     font-size: 20px;
     padding: 15px 20px;
@@ -52,11 +69,11 @@ header a {
     color: inherit;
 }
 
-.back{
+.back {
     text-align: center;
 }
 
-div.logo__img img{
+div.logo__img img {
     margin-right: 10px;
 }
 
@@ -69,7 +86,7 @@ div.logo__img img#chibany {
 }
 
 .contents a:hover {
-    opacity: 0.8 ;
+    opacity: 0.8;
     transform: scale(1.2);
 }
 
@@ -79,4 +96,3 @@ footer {
     text-align: center;
     /* background-color: #F8F2E2 !important; */
 }
-
