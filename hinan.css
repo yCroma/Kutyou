@@ -6,7 +6,7 @@ body {
     background-color: #F8F2E2 !important;
 }
 
-.list {
+.table-responsive {
   display: block; 
   padding-top: 3%;
 }
