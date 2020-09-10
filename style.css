@@ -92,7 +92,9 @@ div.logo__img img {
 }
 
 div.logo__img img#minatan {
-    width: 120px;
+    position: relative;
+    top:3px;
+    width: 132px;
 }
 
 div.logo__img img#chibany {
