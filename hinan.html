@@ -27,93 +27,105 @@
 </head>
 
 <body>
-  <header>
-    <a href="index.html">区長さんお助けアプリ</a>
-    　</header>
-
-  <nav>
-    <ul>
-      <li><a href="index.html">トップページ</a></li>
-      <li>＞</li>
-      <li>避難行動要支援者名簿</li>
-    </ul>
-  </nav>
-
-  <div class="contents">
-    <div class="container">
-      <!--Bootstrapでの中央寄せ-->
-      <div class="table-responsive">
-        <table class="table table-striped text-nowrap"> <!--テーブルを動かす-->
-            <tr>
-              <th>名前</th>
-              <th>フリガナ</th>
-              <th>住所</th>
-              <th>年齢</th>
-              <th>性別</th>
-              <th>支援理由</th>
-            </tr>
-            <tr>
-              <td>南　太郎</td>
-              <td>ミナミ　タロウ</td>
-              <td>南房総市和田町●9XX番地</td>
-              <td>88</td>
-              <td>男</td>
-              <td>介護度を持つ65歳以上単身世帯</td>
-            </tr>
-            <tr>
-              <td>房　花子</td>
-              <td>フサ　ハナコ</td>
-              <td>南房総市和田町●6XX番地5</td>
-              <td>88</td>
-              <td>女</td>
-              <td>視覚障害</td>
-            </tr>
-            <tr>
-              <td>千葉　太郎</td>
-              <td>チバ　タロウ</td>
-              <td>南房総市和田町●7XX番地</td>
-              <td>83</td>
-              <td>男</td>
-              <td>要介護（重度）</td>
-            </tr>
-            <tr>
-              <td>検見川　花子</td>
-              <td>ケミガワ　ハナコ</td>
-              <td>南房総市和田町●5XX番地</td>
-              <td>72</td>
-              <td>女</td>
-              <td>介護度を持つ65歳以上単身世帯</td>
-            </tr>
-            <tr>
-              <td>検見川　太郎</td>
-              <td>ケミガワ　タロウ</td>
-              <td>南房総市和田町●5XX番地</td>
-              <td>70</td>
-              <td>男</td>
-              <td>介護度を持つ65歳以上単身世帯</td>
-            </tr>
-        </table>
+  <div id="auth">
+      <header>
+        <a href="index.html">区長さんお助けアプリ</a>
+        　</header>
+      
+      <nav>
+            <ul>
+                <li>
+                    <button id="logout">logout</button>
+                </li>
+            </ul>
+        <ul>
+          <li><a href="index.html">トップページ</a></li>
+          <li>＞</li>
+          <li>避難行動要支援者名簿</li>
+        </ul>
+      </nav>
+      
+      <div class="contents">
+        <div class="container">
+          <!--Bootstrapでの中央寄せ-->
+          <div class="table-responsive">
+            <table class="table table-striped text-nowrap"> <!--テーブルを動かす-->
+                <tr>
+                  <th>名前</th>
+                  <th>フリガナ</th>
+                  <th>住所</th>
+                  <th>年齢</th>
+                  <th>性別</th>
+                  <th>支援理由</th>
+                </tr>
+                <tr>
+                  <td>南　太郎</td>
+                  <td>ミナミ　タロウ</td>
+                  <td>南房総市和田町●9XX番地</td>
+                  <td>88</td>
+                  <td>男</td>
+                  <td>介護度を持つ65歳以上単身世帯</td>
+                </tr>
+                <tr>
+                  <td>房　花子</td>
+                  <td>フサ　ハナコ</td>
+                  <td>南房総市和田町●6XX番地5</td>
+                  <td>88</td>
+                  <td>女</td>
+                  <td>視覚障害</td>
+                </tr>
+                <tr>
+                  <td>千葉　太郎</td>
+                  <td>チバ　タロウ</td>
+                  <td>南房総市和田町●7XX番地</td>
+                  <td>83</td>
+                  <td>男</td>
+                  <td>要介護（重度）</td>
+                </tr>
+                <tr>
+                  <td>検見川　花子</td>
+                  <td>ケミガワ　ハナコ</td>
+                  <td>南房総市和田町●5XX番地</td>
+                  <td>72</td>
+                  <td>女</td>
+                  <td>介護度を持つ65歳以上単身世帯</td>
+                </tr>
+                <tr>
+                  <td>検見川　太郎</td>
+                  <td>ケミガワ　タロウ</td>
+                  <td>南房総市和田町●5XX番地</td>
+                  <td>70</td>
+                  <td>男</td>
+                  <td>介護度を持つ65歳以上単身世帯</td>
+                </tr>
+            </table>
+          </div>
+      
+          <div class="map">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1EW0eyZ99A-MqAxXSyXEs9iycTQAMbvKa"></iframe>
+          </div>
+        </div>
+      
+      
       </div>
-
-      <div class="map">
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1EW0eyZ99A-MqAxXSyXEs9iycTQAMbvKa"></iframe>
+      
+      <div class="back">
+        <a href="index.html">戻る</a>
       </div>
-    </div>
-
-
+      
+      <footer>
+        <div class="logo__img">
+          <img src="minatan.png" alt="みなたん" id="minatan" title="みなたん">
+          <img src="https://www.it-chiba.ac.jp/admissions/media/chibany002.png" alt="チバニー" id="chibany" title="チバニー">
+        </div>
+        ©️ Chiba Institute of Technology
+      </footer>
   </div>
-
-  <div class="back">
-    <a href="index.html">戻る</a>
-  </div>
-
-  <footer>
-    <div class="logo__img">
-      <img src="minatan.png" alt="みなたん" id="minatan" title="みなたん">
-      <img src="https://www.it-chiba.ac.jp/admissions/media/chibany002.png" alt="チバニー" id="chibany" title="チバニー">
+    <div id="noauth">
+        <h1>認証を問い合わせています</h1>
+        <p>10秒以上変更されない場合はloginボタンを押してください</p>
+        <button id="login">login</button>
     </div>
-    ©️ Chiba Institute of Technology
-  </footer>
     <script src="./js/auth.js"></script>
 </body>
 

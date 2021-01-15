@@ -23,40 +23,52 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">区長さんお助けアプリ</a>
-    </header>
-
-    <nav>
-        <ul>
-            <li>トップページ</li>
-        </ul>
-    </nav>
-
-    <div class="contents">
-        <div class="ganre">
-            <p class="explanation">やりたい業務を選択してください</p>
+    <div id="auth">
+        <header>
+            <a href="index.html">区長さんお助けアプリ</a>
+        </header>
+        
+        <nav>
             <ul>
                 <li>
-                    <a href="https://drive.google.com/file/d/1Z6cGp7DmHebgWxdRmsIbXhS98PiacWGH/view" target="_blank">区長ハンドブック</a>
-                </li>
-                <li>
-                    <a href="sinnsei.html">総合申請メニュー</a>
-                </li>
-                <li>
-                    <a href="hinan.html">避難行動要支援者名簿</a>
+                    <button id="logout">logout</button>
                 </li>
             </ul>
+            <ul>
+                <li>トップページ</li>
+            </ul>
+        </nav>
+        
+        <div class="contents">
+            <div class="ganre">
+                <p class="explanation">やりたい業務を選択してください</p>
+                <ul>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1Z6cGp7DmHebgWxdRmsIbXhS98PiacWGH/view" target="_blank">区長ハンドブック</a>
+                    </li>
+                    <li>
+                        <a href="sinnsei.html">総合申請メニュー</a>
+                    </li>
+                    <li>
+                        <a href="hinan.html">避難行動要支援者名簿</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <footer>
+            <div class="logo__img">
+                <a href="https://www.city.minamiboso.chiba.jp/" target="blank"><img src="minatan.png" alt="みなたん"
+                        id="minatan" title="みなたん"></a>
+                <img src="https://www.it-chiba.ac.jp/admissions/media/chibany002.png" alt="チバニー" id="chibany" title="チバニー">
+            </div>
+            ©️ Chiba Institute of Technology
+        </footer>
     </div>
-    <footer>
-        <div class="logo__img">
-            <a href="https://www.city.minamiboso.chiba.jp/" target="blank"><img src="minatan.png" alt="みなたん"
-                    id="minatan" title="みなたん"></a>
-            <img src="https://www.it-chiba.ac.jp/admissions/media/chibany002.png" alt="チバニー" id="chibany" title="チバニー">
-        </div>
-        ©️ Chiba Institute of Technology
-    </footer>
+    <div id="noauth">
+        <h1>認証を問い合わせています</h1>
+        <p>10秒以上変更されない場合はloginボタンを押してください</p>
+        <button id="login">login</button>
+    </div>
     <script src="./js/auth.js"></script>
 </body>
 

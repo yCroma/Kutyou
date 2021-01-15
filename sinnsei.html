@@ -23,46 +23,58 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">区長さんお助けアプリ</a>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">トップページ</a></li>
-            <li>＞</li>
-            <li>総合申請メニュー</li>
-        </ul>
-    </nav>
-
-    <div class="contents">
-        <div class="ganre">
-            <p class="explanation">申請したい書類を選択してください</p>
+    <div id="auth">
+        <header>
+            <a href="index.html">区長さんお助けアプリ</a>
+        </header>
+        
+        <nav>
             <ul>
                 <li>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdM2icCY_EZ4OEPpm0pUzeVKN2EDWeFXk5vkpHMiDF4r0AimA/viewform"
-                        target="_blank">要望書申請</a>
-                </li>
-                <li>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJom3hzRIKFqHOXVmuY_DWW8O0b9fUr_0kABRCRgSqOU4f_A/viewform?vc=0&c=0&w=1&flr=0"
-                        target="_blank">補助金申請</a>
-                </li>
-                <li>
-                    <a href="https://keep.google.com/u/2/share?tid=true#home" target="_blank">申請進捗確認</a>
+                    <button id="logout">logout</button>
                 </li>
             </ul>
+            <ul>
+                <li><a href="index.html">トップページ</a></li>
+                <li>＞</li>
+                <li>総合申請メニュー</li>
+            </ul>
+        </nav>
+        
+        <div class="contents">
+            <div class="ganre">
+                <p class="explanation">申請したい書類を選択してください</p>
+                <ul>
+                    <li>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdM2icCY_EZ4OEPpm0pUzeVKN2EDWeFXk5vkpHMiDF4r0AimA/viewform"
+                            target="_blank">要望書申請</a>
+                    </li>
+                    <li>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJom3hzRIKFqHOXVmuY_DWW8O0b9fUr_0kABRCRgSqOU4f_A/viewform?vc=0&c=0&w=1&flr=0"
+                            target="_blank">補助金申請</a>
+                    </li>
+                    <li>
+                        <a href="https://keep.google.com/u/2/share?tid=true#home" target="_blank">申請進捗確認</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="back">
-        <a href="index.html">戻る</a>
-    </div>
-    <footer>
-        <div class="logo__img">
-            <img src="minatan.png" alt="みなたん" id="minatan" title="みなたん">
-            <img src="https://www.it-chiba.ac.jp/admissions/media/chibany002.png" alt="チバニー" id="chibany" title="チバニー">
+        <div class="back">
+            <a href="index.html">戻る</a>
         </div>
-        ©️ Chiba Institute of Technology
-    </footer>
+        <footer>
+            <div class="logo__img">
+                <img src="minatan.png" alt="みなたん" id="minatan" title="みなたん">
+                <img src="https://www.it-chiba.ac.jp/admissions/media/chibany002.png" alt="チバニー" id="chibany" title="チバニー">
+            </div>
+            ©️ Chiba Institute of Technology
+        </footer>
+    </div>
+    <div id="noauth">
+        <h1>認証を問い合わせています</h1>
+        <p>10秒以上変更されない場合はloginボタンを押してください</p>
+        <button id="login">login</button>
+    </div>
     <script src="./js/auth.js"></script>
 </body>
 
